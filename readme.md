@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="src/Media.xcassets/AppIcon.appiconset/icon.png" width="110"/>
+  <img src="src/Media.xcassets/AppIcon.appiconset/128.png" />
   <br>
   Mouselock
 </h1>
@@ -11,7 +11,7 @@
   <br>
   Lock mouse cursor to a centered area of the screen for MacOS.
   <br>
-  <img src="screenshot.png"/>
+  <img src="screenshot.png" width="450/>
 </p>
 
 
