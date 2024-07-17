@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="mouselock/Media.xcassets/AppIcon.appiconset/128.png" />
+  <img src="mouselock/Assets.xcassets/AppIcon.appiconset/128.png" />
   <br>
   Mouselock
 </h1>
