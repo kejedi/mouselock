@@ -1,17 +1,17 @@
 <h1 align="center">
-  <img src="src/Media.xcassets/AppIcon.appiconset/128.png" />
+  <img src="mouselock/Media.xcassets/AppIcon.appiconset/128.png" />
   <br>
   Mouselock
 </h1>
 
 <p align="center">
   <a href="https://github.com/kejedi/mouselock/releases/latest">
-    <img src="https://img.shields.io/github/v/release/kejedi/mouselock"/>
+    <img src="https://img.shields.io/github/v/release/kejedi/mouselock" />
   </a>
   <br>
   Lock mouse cursor to a centered area of the screen for MacOS.
   <br>
-  <img src="screenshot.png" width="450/>
+  <img src="screenshot.png" width="450" />
 </p>
 
 
