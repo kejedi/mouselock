@@ -1,0 +1,24 @@
+{
+  "originHash" : "85d1a9abdab8ff21dbff7964ce2bfae5a09ab566f2c45ba453089e9cc1bf5a06",
+  "pins" : [
+    {
+      "identity" : "launchatlogin-modern",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a04ec1c363be3627734f6dad757d82f5d4fa8fcc"
+      }
+    },
+    {
+      "identity" : "settingsaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/orchetect/SettingsAccess",
+      "state" : {
+        "revision" : "f0b57b4c4c0de66b9f4d6c41d39f1d6ede0c9891",
+        "version" : "2.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

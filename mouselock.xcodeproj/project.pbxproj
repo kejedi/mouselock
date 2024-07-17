@@ -11,6 +11,9 @@
 		8CA941E72C47A7D400CC2ED9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA941E62C47A7D400CC2ED9 /* ContentView.swift */; };
 		8CA941E92C47A7D500CC2ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA941E82C47A7D500CC2ED9 /* Assets.xcassets */; };
 		8CA941EC2C47A7D500CC2ED9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CA941EB2C47A7D500CC2ED9 /* Preview Assets.xcassets */; };
+		8CA941F62C47AAC700CC2ED9 /* CGKeyCodeInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA941F52C47AAC700CC2ED9 /* CGKeyCodeInitializers.swift */; };
+		8CA941F92C47ACDE00CC2ED9 /* SettingsAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 8CA941F82C47ACDE00CC2ED9 /* SettingsAccess */; };
+		8CA941FC2C47B5FF00CC2ED9 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 8CA941FB2C47B5FF00CC2ED9 /* LaunchAtLogin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,7 @@
 		8CA941E82C47A7D500CC2ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CA941EB2C47A7D500CC2ED9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CA941ED2C47A7D500CC2ED9 /* mouselock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mouselock.entitlements; sourceTree = "<group>"; };
+		8CA941F52C47AAC700CC2ED9 /* CGKeyCodeInitializers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGKeyCodeInitializers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA941FC2C47B5FF00CC2ED9 /* LaunchAtLogin in Frameworks */,
+				8CA941F92C47ACDE00CC2ED9 /* SettingsAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +60,7 @@
 			children = (
 				8CA941E42C47A7D400CC2ED9 /* mouselockApp.swift */,
 				8CA941E62C47A7D400CC2ED9 /* ContentView.swift */,
+				8CA941F52C47AAC700CC2ED9 /* CGKeyCodeInitializers.swift */,
 				8CA941E82C47A7D500CC2ED9 /* Assets.xcassets */,
 				8CA941ED2C47A7D500CC2ED9 /* mouselock.entitlements */,
 				8CA941EA2C47A7D500CC2ED9 /* Preview Content */,
@@ -85,6 +92,10 @@
 			dependencies = (
 			);
 			name = mouselock;
+			packageProductDependencies = (
+				8CA941F82C47ACDE00CC2ED9 /* SettingsAccess */,
+				8CA941FB2C47B5FF00CC2ED9 /* LaunchAtLogin */,
+			);
 			productName = mouselock;
 			productReference = 8CA941E12C47A7D400CC2ED9 /* mouselock.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +124,10 @@
 				Base,
 			);
 			mainGroup = 8CA941D82C47A7D400CC2ED9;
+			packageReferences = (
+				8CA941F72C47ACDE00CC2ED9 /* XCRemoteSwiftPackageReference "SettingsAccess" */,
+				8CA941FA2C47B5FF00CC2ED9 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
 			productRefGroup = 8CA941E22C47A7D400CC2ED9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,6 +156,7 @@
 			files = (
 				8CA941E72C47A7D400CC2ED9 /* ContentView.swift in Sources */,
 				8CA941E52C47A7D400CC2ED9 /* mouselockApp.swift in Sources */,
+				8CA941F62C47AAC700CC2ED9 /* CGKeyCodeInitializers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +295,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +323,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -341,6 +359,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CA941F72C47ACDE00CC2ED9 /* XCRemoteSwiftPackageReference "SettingsAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/SettingsAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		8CA941FA2C47B5FF00CC2ED9 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CA941F82C47ACDE00CC2ED9 /* SettingsAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CA941F72C47ACDE00CC2ED9 /* XCRemoteSwiftPackageReference "SettingsAccess" */;
+			productName = SettingsAccess;
+		};
+		8CA941FB2C47B5FF00CC2ED9 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CA941FA2C47B5FF00CC2ED9 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8CA941D92C47A7D400CC2ED9 /* Project object */;
 }
