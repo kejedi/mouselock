@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/kejedi/mouselock/releases/latest">
+  <a href="https://github.com/kejedi/mouselock/releases/download/latest/mouselock.app.zip">
     <b>Download the latest version here</b>
   </a>
   <br>
