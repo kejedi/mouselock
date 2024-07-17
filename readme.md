@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/kejedi/mouselock/releases/latest">
-    <img src="https://img.shields.io/github/v/release/kejedi/mouselock" />
+    <b>Download the latest version here</b>
   </a>
   <br>
   Lock mouse cursor to a centered area of the screen for MacOS.
